@@ -22,7 +22,7 @@ variable "billing_code" {
 variable "environment" {
   type        = string
   description = "environment"
-  default     = "globo-dev"
+  default     = "globo-stage"
 }
 
 variable "cidr_block" {
